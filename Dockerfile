@@ -10,4 +10,4 @@ FROM alpine:latest
 WORKDIR /
 
 COPY --from=builder /build/shitty-ngrok ./
-ENTRYPOINT ["./shitty-ngrok -h sng.csh.rit.edu"]
+ENTRYPOINT ["./shitty-ngrok -h sng.apps.okd4.csh.rit.edu"]
